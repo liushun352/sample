@@ -53,6 +53,7 @@ p {
   background-color: $navbar-color;
 }
 
+
 #logo {
   float: left;
   margin-right: 10px;
@@ -66,7 +67,12 @@ p {
     color: #fff;
   }
 }
-
+#logout {
+  cursor: default;
+  &:hover {
+    background-color: transparent;
+  }
+}
 footer {
   margin-top: 45px;
   padding-top: 5px;
